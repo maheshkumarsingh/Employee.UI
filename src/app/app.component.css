@@ -1,0 +1,48 @@
+/* employee-list.component.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0b0b0b;
+    transition: all 0.3s ease;
+    text-transform: uppercase; /* Optional: Make text uppercase */
+  }
+  
+  button.edit-button {
+    background: linear-gradient(145deg, #4CAF50, #388E3C);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.edit-button:hover {
+    background: linear-gradient(145deg, #45a049, #2e7d32);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  button.delete-button {
+    background: linear-gradient(145deg, #f44336, #d32f2f);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.delete-button:hover {
+    background: linear-gradient(145deg, #da190b, #c62828);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
